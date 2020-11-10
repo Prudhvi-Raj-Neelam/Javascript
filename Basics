@@ -50,6 +50,57 @@ Ex:     const interestRate = 0.3;
   5.Objects
   -------------------
   An object in JavaScript is like an object in real life.
+  Ex: A person.Every person has a name,age,address etc...
+  
+  When we are dealing with multiple related variables,we can put these variables inside of an object.
+  
+  Ex:          let person = {
+                   name:'Mash',
+                   age:30
+                };
+                
+                //DOT notation
+                person.name = 'John';
+                console.log(person.name);
+                
+                //Bracket notation
+                let selection = 'name';
+                person[selection] = 'Mary';
+                console.log(person);
+                
+ 6.Arrays
+ -------------
+ An array is a data structure that we used to represent a list of items. 
+ 
+        let selectedColors = ['red','blue']
+        selectedColors[2] = 'green';
+        console.log(selectedColors);
+        
+        selectedColors[2] = 1;
+        console.log(selectedColors);
+        console.log(selectedColors.length);
+        
+ 7.Functions
+ -----------------
+ A Function is basically a set of statements that performs a task or calculate for a value.
+ 
+ Ex:    function greet(name,lastName){
+            console.log('Hello ' + name + ' ' + lastName);
+        }
+        
+        greet('john','miller');
+        
+ 8.Types of Function
+ --------------------
+ The above is for performing a task.There is also functions that calculates something.
+        
+ Ex:    function square(number){
+          return number * number;
+        }
+        
+        let number = square(2);
+        console.log(number);
+       
   
         
         
