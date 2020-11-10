@@ -1,0 +1,70 @@
+1.Variables
+-----------
+In Programming,we use a variable to store data temporarily in a computer memory.
+Ex:     let name = 'Mark';
+        console.log(name);
+        
+  Naming rules:
+  >Variable name cannot be a reserved keyword.
+  >should be meaningful.
+  >cannot start with a number.
+  >cannot contain a space or hyphen(-).
+  >Are Case-sensitive.
+  
+ 
+2.Constants
+-------------
+The value of a constant cannot change.
+Ex:     const interestRate = 0.3;
+        interestRate = 1;                   ///// Error
+        console.log(interestRate);
+        
+ The difference between let and const variable is,In let we can reassign values but in const we cannot reassign value.
+ 
+ 3.Primitive Types
+ ------------------
+ Basically in JavaScript we have 2 categories of data types.
+ (i)Primitives/Value Types        (ii) Reference Types
+      String                          Object
+      Number                          Array
+      Boolean                         Function      
+      Undefined
+      null
+ Ex:
+      let name = 'Mark';
+      let age = 30;
+      let isApproved = true;
+      let firstName;
+      let selectedColors = null;
+      
+  4.Dynamic Typing
+  ------------------
+  The type of a variable can change at run time.
+  
+  Ex:   let name = 'Mark';
+        console.log(name);
+        
+        name = 1;
+        console.log(name);
+        
+  5.Objects
+  -------------------
+  An object in JavaScript is like an object in real life.
+  
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
